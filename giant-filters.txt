@@ -10,6 +10,12 @@
 ! Grey blocks #ececec > #222222 
 ! text #3b3b3b > #d5d5d5
 
+! touchups
+giantweb.rxtouch.com###form-description
+giantweb.rxtouch.com##.container-fluid:style(background: #AC242F !important)
+giantweb.rxtouch.com##hr
+giantweb.rxtouch.com##.form-label
+
 ! BLOCK COOKIE NOTICE
 ||cdn.cookielaw.org^
 giantweb.rxtouch.com##.ot-sdk-container
