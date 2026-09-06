@@ -2,6 +2,7 @@
 ! Description: Dark mode & cleanup rules for giantweb.rxtouch.com
 ! Expires: 1 days
 ! Homepage: https://github.com/lincomax/Filter-Lists/
+! Raw: https://raw.githubusercontent.com/lincomax/Filter-Lists/refs/heads/main/giant-filters.txt
 
 !giantweb.rxtouch.com###.rxweb-btn-small
 
