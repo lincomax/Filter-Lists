@@ -1,0 +1,99 @@
+! Title: Giant Pharmacy Custom Fixes
+! Description: Dark mode & cleanup rules for giantweb.rxtouch.com
+! Expires: 1 days
+! Homepage: https://github.com/lincomax/Filter-Lists/
+
+!giantweb.rxtouch.com###.rxweb-btn-small
+
+! Red #AC242F
+! Background #fff > #121212
+! Grey blocks #ececec > #222222 
+! text #3b3b3b > #d5d5d5
+
+! BLOCK COOKIE NOTICE
+||cdn.cookielaw.org^
+giantweb.rxtouch.com##.ot-sdk-container
+
+! hide rx popup text
+giantweb.rxtouch.com##.form-dialog-header:style(color: #d5d5d5 !important)
+giantweb.rxtouch.com##.section-details:style(color: #d5d5d5 !important)
+
+! Password box
+giantweb.rxtouch.com###password-textbox:style(background-color: #222 !important)
+
+! RECOLOR & ADJUSTMENT FILTERS
+giantweb.rxtouch.com##:is(.main-color, .navbar-process-step.active, .navbar-process-step, .navbar-process-separator, .rx-num-delete, .rx-num-add):style(color: #AC242F !important)
+
+! #errorMessage
+
+! Patient Name Border
+giantweb.rxtouch.com##.col-xs-10.patient-list-header:style(border: none !important)
+
+! Rx Hide Button?
+giantweb.rxtouch.com##:is(.btn-negative, .btn-form-white):style(background-color: #222 !important; border: 1px #AC242F solid !important; color: #AC242F !important)
+
+giantweb.rxtouch.com##:is(.navbar-outer-wrapper, .section-header-small, .btn-form, .btn-form:hover, .btn-form:focus, .btn-form:active, .btn-form.active):style(background-color: #AC242F !important)
+
+! red text
+giantweb.rxtouch.com###NavLogout, #errorMessage:style(color: #AC242F !important)
+
+giantweb.rxtouch.com##.footer:style(border-top: 10px solid #AC242F ! important)
+
+giantweb.rxtouch.com##div.col-xs-12.my-section-list > div:last-child > div:style(border-bottom: 2px solid #A3A3A3 !important)
+
+giantweb.rxtouch.com##div.col-xs-12.col-sm-6.my-section:nth-of-type(1) > .col-xs-12.bottom-nav-type-C.cat-titles.home-page-title-font:style(margin-top: 15px !important)
+giantweb.rxtouch.com##.check-icon:style(filter: invert(100%) hue-rotate(180deg) !important; opacity: 0.8 !important)
+
+! Main Page Bottom Color
+giantweb.rxtouch.com##.container-fluid.bottom-nav-wrapper2:style(background: #121212 !important)
+
+! background-color: #fff -> #121212
+giantweb.rxtouch.com##.table td, .table th, body, .img-thumbnail, .table .table, .form-control, .btn-default, .btn-default.disabled.focus, .btn-default.disabled:focus, .btn-default.disabled:hover, .btn-default[disabled].focus, .btn-default[disabled]:focus, .btn-default[disabled]:hover, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:hover, .btn-primary .badge, .btn-success .badge, .btn-info .badge, .btn-warning .badge, .btn-danger .badge, .dropdown-menu, .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .navbar-inverse .navbar-toggle .icon-bar, .pagination>li>a, .pagination>li>span, .pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover, .pager li>a, .pager li>span, .pager .disabled>a, .pager .disabled>a:focus, .pager .disabled>a:hover, .pager .disabled>span, .list-group-item.active>.badge, .nav-pills>.active>a>.badge, .thumbnail, .list-group-item, .panel, .panel-primary>.panel-heading .badge, .modal-content, .popover, .carousel-indicators .active, textarea, .select-list, #patient-list .expandable-row, #storeMapWrapper, .form-dialog-content, .bottom-nav, .navbar2, .footer, div.row, .container-fluid.form-wrapper, .process-nav-container, #breadcrumb-navbar, #floating-buttons:style(background-color: #121212 !important)
+
+! Dark Hide Rx Button
+!giantweb.rxtouch.com##.btn.btn-negative:style(background-color: #222 !important)
+
+! background-color: #ececec -> #222
+giantweb.rxtouch.com##input[type="text"], input[type="number"], input[type="password"], input[type="tel"], select, .patient-list-header, #InnerWrapper>div.container-fluid.bottom-nav-wrapper2:style(background-color: #222 !important)
+
+! color: #3b3b3b -> #d5d5d5
+giantweb.rxtouch.com##body, a, a:hover, a:focus:style(color: #d5d5d5 !important)
+
+! Patient Name Border
+giantweb.rxtouch.com##.col-xs-10.patient-list-header:style(border: none !important)
+
+! Prescription Separators
+giantweb.rxtouch.com##.expandable-row.closed, .expandable-row.open:style(border-color: #888 !important)
+
+! Button Text
+giantweb.rxtouch.com##.button-text-font:style(color: #d5d5d5 !important)
+
+! FIX SCROLLING SLACK
+giantweb.rxtouch.com##body:style(min-height: unset !important; height: auto !important)
+giantweb.rxtouch.com###OuterWrapper:style(min-height: unset !important; height: auto !important; margin: 0 !important; padding: 0 !important)
+giantweb.rxtouch.com###InnerWrapper:style(min-height: unset !important; height: auto !important; margin: 0 !important; padding: 0 !important)
+giantweb.rxtouch.com###carousel-wrapper:style(min-height: 0 !important; height: 0 !important)
+giantweb.rxtouch.com###mainBodyWrapper:style(padding-bottom: 0 !important; margin-bottom: 0 !important)
+giantweb.rxtouch.com##html:style(overflow-y: auto !important)
+giantweb.rxtouch.com###floating-buttons:style(margin-bottom: -500px !important)
+
+
+! BLOCKING FILTERS
+! header
+giantweb.rxtouch.com##.col-sm-12.navbar-line-separator
+giantweb.rxtouch.com##.navbar-content-wrapper
+! Creat Account Button
+giantweb.rxtouch.com###pickup-btn-signup
+! Add Patients Button
+giantweb.rxtouch.com###patients > div.col-xs-12:nth-of-type(2)
+giantweb.rxtouch.com###footerContainer
+giantweb.rxtouch.com###carousel-dots
+giantweb.rxtouch.com##.delete-patient-icon-btn.no-border-btn
+giantweb.rxtouch.com##.navbar-process-separator
+giantweb.rxtouch.com###accounts-navbar-item
+giantweb.rxtouch.com###history-show > .no-border-btn > .account-info-icon
+giantweb.rxtouch.com###patients-show > .no-border-btn > .account-info-icon
+giantweb.rxtouch.com###patientprivacy-form
+giantweb.rxtouch.com##.carousel-image-wrapper
+! Patient Breadcrumb
+giantweb.rxtouch.com###patient-navbar-item-mobile
