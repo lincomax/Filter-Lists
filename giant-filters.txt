@@ -4,6 +4,9 @@
 ! Homepage: https://github.com/lincomax/Filter-Lists/
 ! Raw: https://raw.githubusercontent.com/lincomax/Filter-Lists/refs/heads/main/giant-filters.txt
 
+!test
+giantweb.rxtouch.com###pickup-btn-reset
+
 !giantweb.rxtouch.com###.rxweb-btn-small
 
 ! Red #AC242F
